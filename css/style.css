@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Roboto:wght@700&display=swap');
+
+:root{
+    --yellow : #ffbb30;
+    --white: #ffffff;
+    --black:black;
+
+}
+body{
+    height: 100%;
+    background-color: var(--yellow);
+    font-family: "ostwald" , Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 150px;
+   width: 150px;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   
+}
+
+.banner{
+    background-color: var(--white);
+    box-shadow:0 5px 3px rgba(0, 0 ,0 ,0.2);
+}
+h1{
+    color:var(--black);
+    text-align: center;
+}
+p{
+    text-align: center;
+}
